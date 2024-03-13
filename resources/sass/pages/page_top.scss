@@ -179,6 +179,7 @@
   height: 66px;
   border: 1px solid #BCBCBC;
   font-size: 24px;
+  font-weight: 400;
 }
 
 #top #search .searchBoxBody .searchBoxBodyWrapper .search-container .search-function .search-form__form .search-tab .search-tab__btn li:first-child p, #top #searchBox .searchBoxBody .searchBoxBodyWrapper .search-container .search-function .search-form__form .search-tab .search-tab__btn li:first-child p {
@@ -203,9 +204,12 @@
   height: 66px;
   font-size: 22px;
   padding: 0px;
+  font-weight: 700;
 }
 
-
+.search-box-form {
+  display: none;
+}
 @include xs {  
   #top  #searchBox .searchBoxBody .searchBoxBodyWrapper .search-container .search-function .search-form__form .search-tab .search-tab__btn li p {
     border-left: none;

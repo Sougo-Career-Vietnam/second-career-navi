@@ -37,7 +37,7 @@
                             あなたのこれまでのキャリアで培ってきた専門能力・知識経験をぜひお貸しください。
                        </dd>
                        <dd class="ddLink">
-                        その能力
+                        求人を探す
                        </dd>
                         
                    </dl>
@@ -46,7 +46,7 @@
                     <picture>
                         <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/top/top_people_sp.png')}}">
                         <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/top/top_people_pc.png')}}">
-                        <img src="{{asset('images/contentBox/top/top_people_pc.png')}}" alt="">
+                        <img src="{{asset('images/contentBox/top/top_people_pc.png')}}" alt="社員の写真">
                     </picture>  
                 </div>
             </div>

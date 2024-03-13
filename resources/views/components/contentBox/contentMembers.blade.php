@@ -7,7 +7,7 @@
                     <picture>
                         <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/top/top_01_sp.png')}} 2x">
                         <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/top/top_01_pc.png')}}">
-                        <img src="{{asset('images/contentBox/top/top_01_pc.png')}}" alt="">
+                        <img src="{{asset('images/contentBox/top/top_01_pc.png')}}" alt="チームの打ち合わせ">
                     </picture>
                 </div>
 
@@ -30,7 +30,7 @@
                     <picture>
                         <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/top/top_02_sp.png')}} 2x">
                         <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/top/top_02_pc.png')}}">
-                        <img src="{{asset('images/contentBox/top/top_01_pc.png')}}" alt="">
+                        <img src="{{asset('images/contentBox/top/top_01_pc.png')}}" alt="社員たちのミーティング">
                     </picture>
                 </div>
                 <dl class="dlFunction two">
@@ -52,7 +52,7 @@
                     <picture>
                         <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/top/top_03_sp.png')}} 2x">
                         <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/top/top_03_pc.png')}}">
-                        <img src="{{asset('images/contentBox/top/top_03_pc.png')}}" alt="">
+                        <img src="{{asset('images/contentBox/top/top_03_pc.png')}}" alt="おじいさんはタブレットを見る">
                     </picture>
                 </div>
 
@@ -60,7 +60,7 @@
                     <dt class="dtNumber caudex">03</dt>
                     <dt class="dtFunction">
                         <span class ="blue">オンライン/オフライン/時短<br class="SPbr">に対応<br>お住まいや働き方</span>
-                        <br class="PCbr">に合わせて柔軟に対応
+                        に合わせて柔軟に対応
                     </dt>
                     <dd class="ddFunction big">
                         業務委託契約になりますので、稼働<br class="SPbr">日数・時間などの参画条件は随時ご<br class="SPbr">相談の上で決定させていただきま<br class="SPbr">す。オンライン上でのコミュニケー<br class="SPbr">ションが円滑に行えるようであれ<br class="SPbr">ば、遠方の方でも歓迎します。
@@ -75,7 +75,7 @@
                     <picture>
                         <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/top/top_04_sp.png')}} 2x">
                         <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/top/top_04_pc.png')}}">
-                        <img src="{{asset('images/contentBox/top/top_04_pc.png')}}" alt="">
+                        <img src="{{asset('images/contentBox/top/top_04_pc.png')}}" alt="社員たちはパソコンを見る">
                     </picture>
                 </div>
                 <dl class="dlFunction two">

@@ -36,7 +36,7 @@
 {{--    <link rel="stylesheet" type="text/css" media="all" href="{{asset('css/fontawesome.min.css')}}"/>--}}
 
     {{--スクロールアニメーション--}}
-{{--    <link rel="stylesheet" type="text/css" media="all" href="{{asset('css/aos.css')}}"/>--}}
+   {{-- <link rel="stylesheet" type="text/css" media="all" href="{{asset('css/aos.css')}}"/> --}}
     {{--ポップアップ表示--}}
     <link rel="stylesheet" type="text/css" media="all" href="{{asset('css/lity.min.css')}}"/>
     <link rel="stylesheet" type="text/css" media="all" href="{{asset('css/jquery.bxslider.css')}}"/>
@@ -46,7 +46,7 @@
     @vite([$sassImportFilePath])
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" type="text/javascript"></script>
-{{--    <script type="text/javascript" src="{{asset('js/aos.js')}}"></script>--}}
+   {{-- <script type="text/javascript" src="{{asset('js/aos.js')}}"></script> --}}
     <script type="text/javascript" src="{{asset('js/lity.min.js')}}"></script>
     <script type="text/javascript" src="{{asset('js/jquery.bxslider.min.js')}}"></script>
     <script type="text/javascript" src="{{asset('js/swiper.min.js')}}"></script>

@@ -27,7 +27,7 @@
                 <picture>
                     <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/top/message_sp.png')}} 2x">
                     <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/top/message_pc.png')}}">
-                    <img src="{{asset('images/contentBox/top/message_pc.png')}}" alt="">
+                    <img src="{{asset('images/contentBox/top/message_pc.png')}}" alt="データを分析">
                 </picture>    
             </div>
  

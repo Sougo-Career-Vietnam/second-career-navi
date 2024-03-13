@@ -62,11 +62,13 @@ if(isset($frontendSettings['footer']['corpInfo']['type']) || isset($frontendSett
                         @endif
                         @if($frontendSettings['footer']['corpInfo']['type'] == 'image' && isset($frontendSettings['footer']['corpInfo']['pcImg']))
 {{--                            <img src="{{$imgSrc ?? ''}}" alt="{{$frontendSettings['footer']['corpInfo']['text'] ?? $corporations[0]['corpFullName'] ?? ''}}">--}}
+                              <a href="https://tdesign-a.com/" target="_blank">
                             <picture>
                                 <source media="(max-width: 767px)" srcset="{{$imgSrcSP ?? ''}} 2x">
                                 <source media="(min-width: 768px)" srcset="{{$imgSrc ?? ''}} 2x">
                                 <img class="sizes" src="{{$imgSrc ?? ''}}" alt="{{$frontendSettings['footer']['corpInfo']['text'] ?? $corporations[0]['corpFullName'] ?? ''}}">
                             </picture>
+                        </a>
                         @endif
                     @elseif(isset($frontendSettings['logo']))
                         <img src="{{$frontendSettings['logo'] ?? ''}}" alt="{{$frontendSettings['footer']['corpInfo']['text'] ?? $corporations[0]['corpFullName'] ?? ''}}">

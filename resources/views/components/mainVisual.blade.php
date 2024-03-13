@@ -9,7 +9,7 @@ $sliderImgList = array(
         'top_img_main_01_sp.png',
     ),
 );
-$mvCatchCopy = '';//メインビジュアルのキャッチコピーを「''」内に入力してください
+$mvCatchCopy = '代表者の写真';//メインビジュアルのキャッチコピーを「''」内に入力してください
 ?>
 
 @if(($sliderImgList['pc'] && count($sliderImgList['pc']) > 0) || ($sliderImgList['sp'] && count($sliderImgList['sp']) > 0))
