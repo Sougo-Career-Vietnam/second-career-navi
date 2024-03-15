@@ -2,7 +2,7 @@
     <div class="contentFunctionsWrapper">
         <div class="contentFunctionsInner">
             <h2 class="titleFunctions">セカンドキャリアナビの特徴</h2>
-            <div class="blockFuciton flex">
+            <div class="blockFuciton js-fadein flex">
                 <div class="imgFunciton">
                     <picture>
                         <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/top/top_01_sp.png')}} 2x">
@@ -25,7 +25,7 @@
                 </dl>
             </div>
           
-            <div class="blockFuciton flex">
+            <div class="blockFuciton js-fadein flex">
                 <div class="imgFunciton two">
                     <picture>
                         <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/top/top_02_sp.png')}} 2x">
@@ -47,7 +47,7 @@
 
             </div>
 
-            <div class="blockFuciton flex">
+            <div class="blockFuciton js-fadein flex">
                 <div class="imgFunciton">
                     <picture>
                         <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/top/top_03_sp.png')}} 2x">
@@ -70,7 +70,7 @@
 
 
 
-            <div class="blockFuciton flex last">
+            <div class="blockFuciton js-fadein flex last">
                 <div class="imgFunciton two">
                     <picture>
                         <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/top/top_04_sp.png')}} 2x">

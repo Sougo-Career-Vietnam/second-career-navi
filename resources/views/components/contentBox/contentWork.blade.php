@@ -2,13 +2,13 @@
     <div class="contentCompanyWrapper">
         <div class="blockInfo">
             <div class="innerInfo">
-                <div class="boxLogo">
+                <div class="boxLogo js-fadein">
                     <picture>
                         <source  srcset="{{asset('images/contentBox/top/top_logo.png')}}">
                         <img src="{{asset('images/contentBox/top/top_logo.png')}}" alt="">
                     </picture>    
                 </div>
-                <dl class="dlInfo">
+                <dl class="dlInfo js-fadein">
                     <dt class="dtInfo">運営母体</dt>
                     <dd class="ddInfo">
                         株式会社東京デザインアーツ<br>
@@ -28,7 +28,7 @@
 
         </div>
         <div class="boxNoteCompany">
-            <div class="innerNote">
+            <div class="innerNote js-fadein">
                    <dl class="dlCompany">
                        <dt class="dtCompany">その能力・知識、<br>私たちにお貸しください！</dt>
                        <dd class="ddCompany">
@@ -42,7 +42,7 @@
                         
                    </dl>
 
-                   <div class="boxIcon">
+                   <div class="boxIcon js-fadein">
                     <picture>
                         <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/top/top_people_sp.png')}}">
                         <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/top/top_people_pc.png')}}">
