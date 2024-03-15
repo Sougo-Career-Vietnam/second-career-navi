@@ -69,13 +69,13 @@
                                                     }
                                                 @endphp
                                                 @if(isset($fEntSearchAxisData->fEntSearchAxis->jobbc) || isset($fEntSearchAxisData->fEntSearchAxis->job))
-                                                <li data-id="2" class="search-tab__ready search-tab__job {{$isFirstViewJobAxis ? 'js-clicked__blue' : ''}}">
+                                                <li data-id="2" class="search-tab__ready search-tab__job js-clicked__blue ">
                                                     <p class="PCdisp">職種から選ぶ</p>
                                                     <p class="SPdisp">職種<br><span class="samlltab">から選ぶ</span></p>
                                                 </li>
                                                 @endif
                                                 @if(isset($fEntSearchAxisData->fEntSearchAxis->area) || isset($fEntSearchAxisData->fEntSearchAxis->pref) || isset($fEntSearchAxisData->fEntSearchAxis->city))
-                                                <li data-id="1" class="search-tab__ready search-tab__area js-clicked__blue">
+                                                <li data-id="1" class="search-tab__ready search-tab__area  {{$isFirstViewJobAxis ? 'js-clicked__blue' : ''}} ">
                                                     <p class="PCdisp">エリアから選ぶ</p>
                                                     <p class="SPdisp">エリア <br><span class="samlltab">から選ぶ</span></p>
                                                 </li>
