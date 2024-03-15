@@ -186,6 +186,7 @@
 }
 
 
+
 #top .namejobTitle {
   width: 60px;
   height: 24px;
@@ -219,6 +220,20 @@
     padding: 15px 10px;
     font-size: 15px;
   }
+  // #searchBox .hgroup-other {
+  //   display: none;
+  // }
+
+  #top #searchBox .searchBoxBody .searchBoxBodyWrapper .search-container .search-function .search-form__form .search-tab .search-tab__btn li p {
+    font-size: 24px;
+    padding: 5px 0px;
+    line-height: 26px;
+  }
+  #top #searchBox .searchBoxBody .searchBoxBodyWrapper .search-container .search-function .search-form__form .search-tab .search-tab__btn li p .samlltab{
+    font-size: 14px;
+  }
+
+
   #top .recommendJobInfo .jobTitle {
     font-size: 20px;
   
@@ -245,6 +260,12 @@
   }
   #top #searchBox .searchBoxBody .searchBoxBodyWrapper .search-container .search-function .search-form__form .search-tab .search-tab__btn li {
     width: calc(100%/3 - 5px);
+    border: 3px solid;
+    border-image: linear-gradient(146.77deg, rgba(4, 91, 223, 0.7) 15.41%, rgba(0, 195, 238, 0.7) 89.66%) 1;
+  }
+  #top #searchBox .searchBoxBody .searchBoxBodyWrapper .search-container .search-function .search-form__form .search-tab .search-tab__btn li.js-clicked__blue  {
+    font-weight: 700;
+    border: 3px solid  #020E76 !important;
   }
   #top .searchQuick .searchQuickWrapper {
     padding: 37px 20px;
@@ -252,12 +273,13 @@
     box-shadow:none
   }
   #top .searchQuick {
-    padding: 10px 0 50px 0;
+    padding: 10px 0 30px 0;
   }
 
   #top .searchQuick div.selectBox div.selectBoxInner span:last-of-type {
     flex-basis: 135px;
     margin-left: 0px;
+    margin-top: 30px;
   }
 }
 
@@ -378,7 +400,7 @@
           position: relative;
           width: 100%;
           bottom: unset;
-          right: unset;
+          right: unset !important;
           text-align: center;
           margin-top: 65px;
          }

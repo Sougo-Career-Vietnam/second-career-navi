@@ -194,6 +194,14 @@
     padding: 15px 10px;
     font-size: 15px;
   }
+  #search  #searchBox .searchBoxBody .searchBoxBodyWrapper .search-container .search-function .search-form__form .search-tab .search-tab__btn li p {
+    font-size: 24px;
+    padding: 5px 0px;
+    line-height: 26px;
+  }
+  #search  #searchBox .searchBoxBody .searchBoxBodyWrapper .search-container .search-function .search-form__form .search-tab .search-tab__btn li p .samlltab{
+    font-size: 14px;
+  }
   #search  .recommendJobInfo .jobTitle {
     font-size: 20px;
   
@@ -219,9 +227,17 @@
   #search  .searchQuick div.selectBox div.selectBoxInner span.crossSelect {
     display: none;
   }
-  #search  #searchBox .searchBoxBody .searchBoxBodyWrapper .search-container .search-function .search-form__form .search-tab .search-tab__btn li {
+  #search #searchBox .searchBoxBody .searchBoxBodyWrapper .search-container .search-function .search-form__form .search-tab .search-tab__btn li {
     width: calc(100%/3 - 5px);
+    border: 3px solid;
+    border-image: linear-gradient(146.77deg, rgba(4, 91, 223, 0.7) 15.41%, rgba(0, 195, 238, 0.7) 89.66%) 1;
   }
+  #search #searchBox .searchBoxBody .searchBoxBodyWrapper .search-container .search-function .search-form__form .search-tab .search-tab__btn li.js-clicked__blue  {
+    font-weight: 700;
+    border: 3px solid  #020E76 !important;
+  }
+
+
   #search  .searchQuick .searchQuickWrapper {
     padding: 37px 20px;
     background: white;
