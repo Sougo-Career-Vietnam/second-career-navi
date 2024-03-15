@@ -6,7 +6,7 @@
                   <ul class="listFind flex">
                     <li class="tiemFind js-fadein">
                         <h3 class="titlelist">事業運営</h3>
-                        <p class="textlist">広告、人材紹介、人材派遣、商社、運輸/輸送、自動車、メーカー/製造、海外、介護、障がい者</p>
+                        <p class="textlist">広告、人材紹介、人材派遣、商社、運輸/輸送、自動車、<br class="PCbr">メーカー/製造、海外、介護、障がい者</p>
                     </li>
                     <li class="tiemFind js-fadein">
                         <h3 class="titlelist">バックオフィス</h3>
