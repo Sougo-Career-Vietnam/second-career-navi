@@ -89,7 +89,7 @@
 
 }
 #top #searchBox .searchBoxBody .searchBoxBodyWrapper .search-container .search-function .search-form__form .search-tab .search-tab__btn li.js-clicked__blue  {
-
+  font-weight: 700;
   border: 5px solid  #020E76 !important;
 }
 #top #searchBox .searchBoxBody .searchBoxBodyWrapper .search-container .search-function .search-form__form .search-tab .search-tab__btn li p {
@@ -204,6 +204,7 @@
   font-size: 22px;
   padding: 0px;
   font-weight: 700;
+  border: none;
 }
 
 .search-box-form {
@@ -407,6 +408,15 @@
 
 
 }
+
+@media (max-width: 1200px) { 
+  #message .contentMessageInner .messgaseImg  {
+    right: 15px;
+  }
+
+}
+
+
 @include xs { 
   #message {
     padding: 55px 0px 100px;
@@ -634,7 +644,12 @@
 
   }
 }
+@media (max-width: 1200px) { 
+  #functions .contentFunctionsInner .blockFuciton .dlFunction .dtFunction {
+    font-size: 26px;
+  }
 
+}
 
 @include xs { 
   #functions {
@@ -980,6 +995,7 @@
               color: #00C3EE;
               font-weight: 700;
               font-size: 24px;
+              display: block;
             }
         } 
         .boxIcon {

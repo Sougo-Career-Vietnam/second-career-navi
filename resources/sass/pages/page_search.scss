@@ -68,7 +68,7 @@
 
 }
 #search  #searchBox .searchBoxBody .searchBoxBodyWrapper .search-container .search-function .search-form__form .search-tab .search-tab__btn li.js-clicked__blue  {
-
+  font-weight: 700;
   border: 5px solid  #020E76 !important;
 }
 #search  #searchBox .searchBoxBody .searchBoxBodyWrapper .search-container .search-function .search-form__form .search-tab .search-tab__btn li p {
@@ -182,6 +182,7 @@
   font-size: 22px;
   padding: 0px;
   font-weight: 700;
+  border: none;
 }
 
 .search-box-form {
