@@ -21,9 +21,9 @@
                 <h2 class="titleRecruitemnt">採用までの流れ</h2>
                 <ul class="listRecruitemnt flex">
                     <li class="itemRecruitemnt">求人を検索</li>
-                    <li class="itemRecruitemnt">内容を確認し<br>問題なければ<br>エントリー</li>
+                    <li class="itemRecruitemnt">内容を確認し<br>問題なければ<br class="PCbr">エントリー</li>
                     <li class="itemRecruitemnt">書類選考</li>
-                    <li class="itemRecruitemnt">面談<span>※1～2回</span></li>
+                    <li class="itemRecruitemnt">面談<br class="SPbr"><span>※1～2回</span></li>
                 </ul>
             </div>
         </div>
